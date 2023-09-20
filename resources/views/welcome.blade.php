@@ -9,8 +9,9 @@
     <title>Organic Farm - Ecogro</title>
     <link rel="canonical" href="https://agricola.axiomthemes.com" />
     <meta name='robots' content='max-image-preview:large' />
-    <link rel='dns-prefetch' href='//use.typekit.net' />
-    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' {{ href='//use.typekit.net }}' />
+    <link rel='dns-prefetch' {{ href='//fonts.googleapis.com }}' />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
     </script>
@@ -18,10 +19,7 @@
     <meta property="og:url" content="https://agricola.axiomthemes.com/organic-farm/" />
     <meta property="og:title" content="Organic Farm" />
     <meta property="og:description" content="			
-Cultivating Agriculture that Works for the Future 
-										We’re a Unique and Traditional
-Organic Farm 
-										Go to the Shop 
+Cultivating Agriculture that Works for the Future We’re a Unique and Traditional Organic Farm Go to the Shop 
 Cultivating Agriculture that Works for the Future 
 										Get the Fresh Product 
 										Go to the Shop 
@@ -35,7 +33,7 @@ Cultivating Agriculture that Works for the Future
             "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
             "svgExt": ".svg",
             "source": {
-                "concatemoji": "js/wp-emoji-release.min.js"
+                "concatemoji": "{{ asset('theme/js/wp-emoji-release.min.js') }}"
             }
         };
         /*! This file is auto-generated */
@@ -2043,7 +2041,7 @@ Cultivating Agriculture that Works for the Future
                                                                                                 <rs-module id="rev_slider_4_1" style="" data-version="6.5.31">
                                                                                                     <rs-slides>
                                                                                                         <rs-slide style="position: absolute;" data-key="rs-6" data-title="Slide" data-thumb="//agricola.axiomthemes.com/wp-content/uploads/2022/08/slider-4-slide-1-copyright-146x102.jpg" data-anim="adpr:false;ms:1000ms;" data-in="o:0;" data-out="a:false;">
-                                                                                                            <img decoding="async" src="{{ asset('theme/css/plugins/revslider/public/assets/assets/dummy.png')}}" alt="" title="slider-4-slide-1-copyright" width="1920" height="980" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="images/slider-4-slide-1-copyright.jpg" data-parallax="off" data-panzoom="d:10000;ss:100;se:110%;" data-no-retina>
+                                                                                                            <img decoding="async" src="{{ asset('theme/css/plugins/revslider/public/assets/assets/dummy.png')}}" alt="" title="slider-4-slide-1-copyright" width="1920" height="980" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="{{ asset('theme/images/slider-4-slide-1-copyright.jpg') }}" data-parallax="off" data-panzoom="d:10000;ss:100;se:110%;" data-no-retina>
                                                                                                             <!--
 							-->
                                                                                                             <rs-layer id="slider-4-slide-6-layer-3" data-type="image" data-rsp_ch="on" data-xy="x:c;y:m;" data-text="w:normal;s:20,15,8,4;l:0,18,9,6;" data-dim="w:838px,628px,339px,209px;h:647px,485px,262px,161px;" data-frame_0="sX:0.9;sY:0.9;" data-frame_1="e:power2.inOut;st:520;sp:1000;sR:520;" data-frame_999="o:0;st:w;sR:7480;" style="z-index:16;">
@@ -2107,7 +2105,7 @@ Cultivating Agriculture that Works for the Future
 -->
                                                                                                         </rs-slide>
                                                                                                         <rs-slide style="position: absolute;" data-key="rs-8" data-title="Slide" data-thumb="//agricola.axiomthemes.com/wp-content/uploads/2022/08/slider-4-slide-3-copyright-146x102.jpg" data-anim="adpr:false;ms:1000ms;" data-in="o:0;" data-out="a:false;">
-                                                                                                            <img decoding="async" src="css/plugins/revslider/public/assets/assets/dummy.png" alt="Slider Slide" title="slider-4-slide-3-copyright" width="1920" height="980" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="images/slider-4-slide-3-copyright.jpg" data-parallax="off" data-panzoom="d:10000;ss:100;se:110%;" data-no-retina>
+                                                                                                            <img decoding="async" src="{{ asset('theme/css/plugins/revslider/public/assets/assets/dummy.png') }}" alt="Slider Slide" title="slider-4-slide-3-copyright" width="1920" height="980" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="{{ asset('theme/images/slider-4-slide-3-copyright.jpg') }}" data-parallax="off" data-panzoom="d:10000;ss:100;se:110%;" data-no-retina>
                                                                                                             <!--						-->
                                                                                                             <rs-zone id="rrzm_8" class="rev_row_zone_middle" style="z-index: 14;">
                                                                                                                 <!--
@@ -2171,7 +2169,7 @@ Cultivating Agriculture that Works for the Future
 					-->
                                                                                                     </rs-static-layers>
                                                                                                 </rs-module>
-                                                                                                <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
+                                                                                                <script data-cfasync="false" src="{{ asset('theme/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js') }}">
                                                                                                 </script>
                                                                                                 <script>
                                                                                                     setREVStartSize({
@@ -2298,11 +2296,11 @@ Cultivating Agriculture that Works for the Future
                                                                                 <div class="sc_extended_products_content sc_item_content">
                                                                                     <div class="woocommerce columns-4 ">
                                                                                         <ul class="products products_style_info_2 columns-4">
-                                                                                            <li class="product type-product post-18184 status-publish first instock product_cat-berries product_cat-fruits product_cat-organic product_tag-crop product_tag-organic product_tag-season product_tag-summer has-post-thumbnail shipping-taxable purchasable product-type-simple product_style_info_2">
+                                                                                            <li  data-id="1" data-name="Product 1" data-price="19.99" class="product type-product post-18184 status-publish first instock product_cat-berries product_cat-fruits product_cat-organic product_tag-crop product_tag-organic product_tag-season product_tag-summer has-post-thumbnail shipping-taxable purchasable product-type-simple product_style_info_2">
                                                                                                 <div class="post_item post_layout_thumbs">
                                                                                                     <div class="post_featured hover_shop">
                                                                                                         <a href="product/strawberry.html">
-                                                                                                            <img width="430" height="430" src="{{ asset('theme/wp-content/uploads/2022/07/product-image25-copyright-430x430.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" fetchpriority="high" srcset="wp-content/uploads/2022/07/product-image25-copyright-430x430.jpg 430w, wp-content/uploads/2022/07/product-image25-copyright-150x150.jpg 150w, wp-content/uploads/2022/07/product-image25-copyright-120x120.jpg 120w, wp-content/uploads/2022/07/product-image25-copyright-300x300.jpg 300w, wp-content/uploads/2022/07/product-image25-copyright-370x370.jpg 370w" sizes="(max-width: 600px) 100vw, 430px" />
+                                                                                                            <img width="430" height="430" src="https://fj.china.com.cn/b2b/imgs/aHR0cHM6Ly9pbWFnZS5tYWRlLWluLWNoaW5hLmNvbS8yZjBqMDBGU1lsaEl5SkxNcmYvR1JTLVNHUy1DRS1BcHByb3ZlZC1NYW51ZmFjdHVyZXItUmljZS1HcmFpbi1NYWl6ZS1TZWVkLUZlZWQtV2hlYXQtRmVydGlsaXplci1QYWNraW5nLTI1a2ctNTAtS2ctQWdyaWN1bHR1cmUtUGxhc3RpYy0xMDAtVmlyZ2luLVBQLUNoaW5hLVBvbHlwcm9weWxlbmUtV292ZW4tQmFnLndlYnA.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" fetchpriority="high" sizes="(max-width: 600px) 100vw, 430px" />
                                                                                                         </a>
                                                                                                         <div class="mask">
                                                                                                         </div>
@@ -2320,7 +2318,8 @@ Cultivating Agriculture that Works for the Future
                                                                                                                     Wishlist
                                                                                                                 </div>
                                                                                                             </div>
-                                                                                                            <a rel="nofollow" href="?add-to-cart=18184" aria-hidden="true" data-quantity="1" data-product_id="18184" data-product_sku="285" class="shop_cart icon-shopping-cart button add_to_cart_button product_type_simple product_in_stock ajax_add_to_cart"><span class="icon-anim"></span></a>
+                                                                                                            <a aria-hidden="true" class="add-to-cart shop_cart icon-shopping-cart button"><span class="icon-anim"></span></a>
+                                                                                                            {{--  <a rel="nofollow" href="?add-to-cart=18184" aria-hidden="true" data-quantity="1" data-product_id="18184" data-product_sku="285" class=" add-to-cart shop_cart icon-shopping-cart button add_to_cart_button product_type_simple product_in_stock ajax_add_to_cart"><span class="icon-anim"></span></a>  --}}
                                                                                                             <a href="product/strawberry.html" aria-hidden="true" class="shop_link">
                                                                                                                 <span class="icon-anim"></span>
                                                                                                             </a>
@@ -2330,7 +2329,7 @@ Cultivating Agriculture that Works for the Future
                                                                                                         <div class="post_data_inner">
                                                                                                             <div class="post_header entry-header">
                                                                                                                 <div class="post_tags product_tags">
-                                                                                                                    <a href="product-tag/crop.html" rel="tag">crop</a>,
+                                                                                                                    <a href="product-tag/crop.html" rel="tag">Crop</a>,
                                                                                                                     <a href="product-tag/organic.html" rel="tag">Marketplace</a>,
                                                                                                                     <a href="product-tag/season.html" rel="tag">season</a>,
                                                                                                                     <a href="product-tag/summer.html" rel="tag">summer</a>
@@ -2353,403 +2352,7 @@ Cultivating Agriculture that Works for the Future
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </li>
-                                                                                            <li class="product type-product post-17936 status-publish instock product_cat-berries product_tag-crop product_tag-organic product_tag-season product_tag-summer has-post-thumbnail shipping-taxable purchasable product-type-simple product_style_info_2">
-                                                                                                <div class="post_item post_layout_thumbs">
-                                                                                                    <div class="post_featured hover_shop">
-                                                                                                        <a href="product/fresh-blueberry.html">
-                                                                                                            <img loading="lazy" width="430" height="430" src="{{ asset('theme/wp-content/uploads/2022/07/product-image8-copyright-430x430.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" srcset="wp-content/uploads/2022/07/product-image8-copyright-430x430.jpg 430w, wp-content/uploads/2022/07/product-image8-copyright-150x150.jpg 150w, wp-content/uploads/2022/07/product-image8-copyright-120x120.jpg 120w, wp-content/uploads/2022/07/product-image8-copyright-300x300.jpg 300w, wp-content/uploads/2022/07/product-image8-copyright-370x370.jpg 370w" sizes="(max-width: 600px) 100vw, 430px" />
-                                                                                                        </a>
-                                                                                                        <div class="mask">
-                                                                                                        </div>
-                                                                                                        <div class="icons">
-                                                                                                            <div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper" data-tinvwl_product_id="17936">
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div><a role="button" tabindex="0" aria-label="Add to Wishlist" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart  tinvwl-position-shortcode tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="17936" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[0]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"><span class="tinvwl_add_to_wishlist-text">Add
-                                                                                                                        to
-                                                                                                                        Wishlist</span></a>
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div>
-                                                                                                                <div class="tinvwl-tooltip">
-                                                                                                                    Add
-                                                                                                                    to
-                                                                                                                    Wishlist
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <a rel="nofollow" href="?add-to-cart=17936" aria-hidden="true" data-quantity="1" data-product_id="17936" data-product_sku="457623" class="shop_cart icon-shopping-cart button add_to_cart_button product_type_simple product_in_stock ajax_add_to_cart"><span class="icon-anim"></span></a>
-                                                                                                            <a href="product/fresh-blueberry.html" aria-hidden="true" class="shop_link">
-                                                                                                                <span class="icon-anim"></span>
-                                                                                                            </a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="post_data">
-                                                                                                        <div class="post_data_inner">
-                                                                                                            <div class="post_header entry-header">
-                                                                                                                <div class="post_tags product_tags">
-                                                                                                                    <a href="product-tag/crop.html" rel="tag">crop</a>,
-                                                                                                                    <a href="product-tag/organic.html" rel="tag">Marketplace</a>,
-                                                                                                                    <a href="product-tag/season.html" rel="tag">season</a>,
-                                                                                                                    <a href="product-tag/summer.html" rel="tag">summer</a>
-                                                                                                                </div>
-                                                                                                                <h2 class="woocommerce-loop-product__title">
-                                                                                                                    <a href="product/fresh-blueberry.html">Fresh
-                                                                                                                        Blueberry</a>
-                                                                                                                </h2>
-                                                                                                                <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                                                                                                    <span style="width:100%">Rated
-                                                                                                                        <strong class="rating">5.00</strong>
-                                                                                                                        out
-                                                                                                                        of
-                                                                                                                        5</span>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>60.00</bdi></span></span>
-                                                                                                            <a href="?add-to-cart=17936" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="17936" data-product_sku="457623" aria-label="Add &ldquo;Fresh Blueberry&rdquo; to your cart" rel="nofollow">Buy
-                                                                                                                now</a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </li>
-                                                                                            <li class="product type-product post-17933 status-publish instock product_cat-salad product_tag-crop product_tag-organic product_tag-season product_tag-summer has-post-thumbnail shipping-taxable purchasable product-type-variable product_style_info_2">
-                                                                                                <div class="post_item post_layout_thumbs">
-                                                                                                    <div class="post_featured hover_shop">
-                                                                                                        <a href="product/green-asparagus.html">
-                                                                                                            <img loading="lazy" width="430" height="430" src="{{ asset('theme/wp-content/uploads/2022/07/product-image7-copyright-430x430.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" srcset="wp-content/uploads/2022/07/product-image7-copyright-430x430.jpg 430w, wp-content/uploads/2022/07/product-image7-copyright-150x150.jpg 150w, wp-content/uploads/2022/07/product-image7-copyright-120x120.jpg 120w, wp-content/uploads/2022/07/product-image7-copyright-300x300.jpg 300w, wp-content/uploads/2022/07/product-image7-copyright-370x370.jpg 370w" sizes="(max-width: 600px) 100vw, 430px" />
-                                                                                                        </a>
-                                                                                                        <div class="mask">
-                                                                                                        </div>
-                                                                                                        <div class="icons">
-                                                                                                            <div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper" data-tinvwl_product_id="17933">
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div><a role="button" tabindex="0" aria-label="Add to Wishlist" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart  tinvwl-position-shortcode tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="17933" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[17934,17935,0]" data-tinv-wl-producttype="variable" data-tinv-wl-action="add"><span class="tinvwl_add_to_wishlist-text">Add
-                                                                                                                        to
-                                                                                                                        Wishlist</span></a>
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div>
-                                                                                                                <div class="tinvwl-tooltip">
-                                                                                                                    Add
-                                                                                                                    to
-                                                                                                                    Wishlist
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <a rel="nofollow" href="product/green-asparagus.html" aria-hidden="true" data-quantity="1" data-product_id="17933" data-product_sku="49743" class="shop_cart icon-shopping-cart button add_to_cart_button product_type_variable product_in_stock"><span class="icon-anim"></span></a>
-                                                                                                            <a href="product/green-asparagus.html" aria-hidden="true" class="shop_link">
-                                                                                                                <span class="icon-anim"></span>
-                                                                                                            </a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="post_data">
-                                                                                                        <div class="post_data_inner">
-                                                                                                            <div class="post_header entry-header">
-                                                                                                                <div class="post_tags product_tags">
-                                                                                                                    <a href="product-tag/crop.html" rel="tag">crop</a>,
-                                                                                                                    <a href="product-tag/organic.html" rel="tag">Marketplace</a>,
-                                                                                                                    <a href="product-tag/season.html" rel="tag">season</a>,
-                                                                                                                    <a href="product-tag/summer.html" rel="tag">summer</a>
-                                                                                                                </div>
-                                                                                                                <h2 class="woocommerce-loop-product__title">
-                                                                                                                    <a href="product/green-asparagus.html">Green
-                                                                                                                        Asparagus</a>
-                                                                                                                </h2>
-                                                                                                                <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                                                                                                    <span style="width:100%">Rated
-                                                                                                                        <strong class="rating">5.00</strong>
-                                                                                                                        out
-                                                                                                                        of
-                                                                                                                        5</span>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>45.00</bdi></span>
-                                                                                                                &ndash;
-                                                                                                                <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>47.00</bdi></span></span>
-                                                                                                            <a href="product/green-asparagus.html" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="17933" data-product_sku="49743" aria-label="Select options for &ldquo;Green Asparagus&rdquo;" rel="nofollow">Buy
-                                                                                                                now</a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </li>
-                                                                                            <li class="product type-product post-17932 status-publish last instock product_cat-vegetables product_tag-crop product_tag-organic product_tag-season product_tag-summer has-post-thumbnail shipping-taxable purchasable product-type-simple product_style_info_2">
-                                                                                                <div class="post_item post_layout_thumbs">
-                                                                                                    <div class="post_featured hover_shop">
-                                                                                                        <a href="product/red-onion.html">
-                                                                                                            <img width="430" height="430" src="{{ asset('theme/wp-content/uploads/2022/07/product-image6-copyright-430x430.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" srcset="wp-content/uploads/2022/07/product-image6-copyright-430x430.jpg 430w, wp-content/uploads/2022/07/product-image6-copyright-150x150.jpg 150w, wp-content/uploads/2022/07/product-image6-copyright-120x120.jpg 120w, wp-content/uploads/2022/07/product-image6-copyright-300x300.jpg 300w, wp-content/uploads/2022/07/product-image6-copyright-370x370.jpg 370w" sizes="(max-width: 600px) 100vw, 430px" />
-                                                                                                        </a>
-                                                                                                        <div class="mask">
-                                                                                                        </div>
-                                                                                                        <div class="icons">
-                                                                                                            <div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper" data-tinvwl_product_id="17932">
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div><a role="button" tabindex="0" aria-label="Add to Wishlist" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart  tinvwl-position-shortcode tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="17932" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[0]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"><span class="tinvwl_add_to_wishlist-text">Add
-                                                                                                                        to
-                                                                                                                        Wishlist</span></a>
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div>
-                                                                                                                <div class="tinvwl-tooltip">
-                                                                                                                    Add
-                                                                                                                    to
-                                                                                                                    Wishlist
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <a rel="nofollow" href="?add-to-cart=17932" aria-hidden="true" data-quantity="1" data-product_id="17932" data-product_sku="45765" class="shop_cart icon-shopping-cart button add_to_cart_button product_type_simple product_in_stock ajax_add_to_cart"><span class="icon-anim"></span></a>
-                                                                                                            <a href="product/red-onion.html" aria-hidden="true" class="shop_link">
-                                                                                                                <span class="icon-anim"></span>
-                                                                                                            </a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="post_data">
-                                                                                                        <div class="post_data_inner">
-                                                                                                            <div class="post_header entry-header">
-                                                                                                                <div class="post_tags product_tags">
-                                                                                                                    <a href="product-tag/crop.html" rel="tag">crop</a>,
-                                                                                                                    <a href="product-tag/organic.html" rel="tag">Marketplace</a>,
-                                                                                                                    <a href="product-tag/season.html" rel="tag">season</a>,
-                                                                                                                    <a href="product-tag/summer.html" rel="tag">summer</a>
-                                                                                                                </div>
-                                                                                                                <h2 class="woocommerce-loop-product__title">
-                                                                                                                    <a href="product/red-onion.html">Red
-                                                                                                                        Onion</a>
-                                                                                                                </h2>
-                                                                                                                <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                                                                                                    <span style="width:100%">Rated
-                                                                                                                        <strong class="rating">5.00</strong>
-                                                                                                                        out
-                                                                                                                        of
-                                                                                                                        5</span>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>26.00</bdi></span></span>
-                                                                                                            <a href="?add-to-cart=17932" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="17932" data-product_sku="45765" aria-label="Add &ldquo;Red Onion&rdquo; to your cart" rel="nofollow">Buy
-                                                                                                                now</a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </li>
-                                                                                            <li class="product type-product post-17926 status-publish first instock product_cat-vegetables product_tag-crop product_tag-organic product_tag-season product_tag-summer has-post-thumbnail shipping-taxable purchasable product-type-variable product_style_info_2">
-                                                                                                <div class="post_item post_layout_thumbs">
-                                                                                                    <div class="post_featured hover_shop">
-                                                                                                        <a href="product/organic-carrot.html">
-                                                                                                            <img width="430" height="430" src="{{ asset('theme/wp-content/uploads/2022/07/product-image5-copyright-430x430.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" srcset="wp-content/uploads/2022/07/product-image5-copyright-430x430.jpg 430w, wp-content/uploads/2022/07/product-image5-copyright-150x150.jpg 150w, wp-content/uploads/2022/07/product-image5-copyright-120x120.jpg 120w, wp-content/uploads/2022/07/product-image5-copyright-300x300.jpg 300w, wp-content/uploads/2022/07/product-image5-copyright-370x370.jpg 370w" sizes="(max-width: 600px) 100vw, 430px" />
-                                                                                                        </a>
-                                                                                                        <div class="mask">
-                                                                                                        </div>
-                                                                                                        <div class="icons">
-                                                                                                            <div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper" data-tinvwl_product_id="17926">
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div><a role="button" tabindex="0" aria-label="Add to Wishlist" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart  tinvwl-position-shortcode tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="17926" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[17930,17931,0]" data-tinv-wl-producttype="variable" data-tinv-wl-action="add"><span class="tinvwl_add_to_wishlist-text">Add
-                                                                                                                        to
-                                                                                                                        Wishlist</span></a>
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div>
-                                                                                                                <div class="tinvwl-tooltip">
-                                                                                                                    Add
-                                                                                                                    to
-                                                                                                                    Wishlist
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <a rel="nofollow" href="product/organic-carrot.html" aria-hidden="true" data-quantity="1" data-product_id="17926" data-product_sku="97046" class="shop_cart icon-shopping-cart button add_to_cart_button product_type_variable product_in_stock"><span class="icon-anim"></span></a>
-                                                                                                            <a href="product/organic-carrot.html" aria-hidden="true" class="shop_link">
-                                                                                                                <span class="icon-anim"></span>
-                                                                                                            </a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="post_data">
-                                                                                                        <div class="post_data_inner">
-                                                                                                            <div class="post_header entry-header">
-                                                                                                                <div class="post_tags product_tags">
-                                                                                                                    <a href="product-tag/crop.html" rel="tag">crop</a>,
-                                                                                                                    <a href="product-tag/organic.html" rel="tag">Marketplace</a>,
-                                                                                                                    <a href="product-tag/season.html" rel="tag">season</a>,
-                                                                                                                    <a href="product-tag/summer.html" rel="tag">summer</a>
-                                                                                                                </div>
-                                                                                                                <h2 class="woocommerce-loop-product__title">
-                                                                                                                    <a href="product/organic-carrot.html">Organic
-                                                                                                                        Carrot</a>
-                                                                                                                </h2>
-                                                                                                                <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                                                                                                    <span style="width:100%">Rated
-                                                                                                                        <strong class="rating">5.00</strong>
-                                                                                                                        out
-                                                                                                                        of
-                                                                                                                        5</span>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>35.00</bdi></span>
-                                                                                                                &ndash;
-                                                                                                                <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>37.00</bdi></span></span>
-                                                                                                            <a href="product/organic-carrot.html" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="17926" data-product_sku="97046" aria-label="Select options for &ldquo;Organic Carrot&rdquo;" rel="nofollow">Buy
-                                                                                                                now</a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </li>
-                                                                                            <li class="product type-product post-17925 status-publish instock product_cat-salad product_tag-crop product_tag-farm product_tag-food product_tag-healthy has-post-thumbnail shipping-taxable purchasable product-type-simple product_style_info_2">
-                                                                                                <div class="post_item post_layout_thumbs">
-                                                                                                    <div class="post_featured hover_shop">
-                                                                                                        <a href="product/baby-bok-choy.html">
-                                                                                                            <img width="430" height="430" src="{{ asset('theme/wp-content/uploads/2022/07/product-image4-copyright-430x430.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" srcset="wp-content/uploads/2022/07/product-image4-copyright-430x430.jpg 430w, wp-content/uploads/2022/07/product-image4-copyright-150x150.jpg 150w, wp-content/uploads/2022/07/product-image4-copyright-120x120.jpg 120w, wp-content/uploads/2022/07/product-image4-copyright-300x300.jpg 300w, wp-content/uploads/2022/07/product-image4-copyright-370x370.jpg 370w" sizes="(max-width: 600px) 100vw, 430px" />
-                                                                                                        </a>
-                                                                                                        <div class="mask">
-                                                                                                        </div>
-                                                                                                        <div class="icons">
-                                                                                                            <div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper" data-tinvwl_product_id="17925">
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div><a role="button" tabindex="0" aria-label="Add to Wishlist" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart  tinvwl-position-shortcode tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="17925" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[0]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"><span class="tinvwl_add_to_wishlist-text">Add
-                                                                                                                        to
-                                                                                                                        Wishlist</span></a>
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div>
-                                                                                                                <div class="tinvwl-tooltip">
-                                                                                                                    Add
-                                                                                                                    to
-                                                                                                                    Wishlist
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <a rel="nofollow" href="?add-to-cart=17925" aria-hidden="true" data-quantity="1" data-product_id="17925" data-product_sku="97043" class="shop_cart icon-shopping-cart button add_to_cart_button product_type_simple product_in_stock ajax_add_to_cart"><span class="icon-anim"></span></a>
-                                                                                                            <a href="product/baby-bok-choy.html" aria-hidden="true" class="shop_link">
-                                                                                                                <span class="icon-anim"></span>
-                                                                                                            </a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="post_data">
-                                                                                                        <div class="post_data_inner">
-                                                                                                            <div class="post_header entry-header">
-                                                                                                                <div class="post_tags product_tags">
-                                                                                                                    <a href="product-tag/crop.html" rel="tag">crop</a>,
-                                                                                                                    <a href="product-tag/farm.html" rel="tag">farm</a>,
-                                                                                                                    <a href="product-tag/food.html" rel="tag">food</a>,
-                                                                                                                    <a href="product-tag/healthy.html" rel="tag">healthy</a>
-                                                                                                                </div>
-                                                                                                                <h2 class="woocommerce-loop-product__title">
-                                                                                                                    <a href="product/baby-bok-choy.html">Baby
-                                                                                                                        Bok
-                                                                                                                        Choy</a>
-                                                                                                                </h2>
-                                                                                                                <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                                                                                                    <span style="width:100%">Rated
-                                                                                                                        <strong class="rating">5.00</strong>
-                                                                                                                        out
-                                                                                                                        of
-                                                                                                                        5</span>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>40.00</bdi></span></span>
-                                                                                                            <a href="?add-to-cart=17925" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="17925" data-product_sku="97043" aria-label="Add &ldquo;Baby Bok Choy&rdquo; to your cart" rel="nofollow">Buy
-                                                                                                                now</a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </li>
-                                                                                            <li class="product type-product post-17924 status-publish instock product_cat-salad product_tag-crop product_tag-farm product_tag-food product_tag-healthy has-post-thumbnail shipping-taxable purchasable product-type-simple product_style_info_2">
-                                                                                                <div class="post_item post_layout_thumbs">
-                                                                                                    <div class="post_featured hover_shop">
-                                                                                                        <a href="product/fresh-basil.html">
-                                                                                                            <img width="430" height="430" src="{{ asset('theme/wp-content/uploads/2022/07/product-image3-copyright-430x430.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" srcset="wp-content/uploads/2022/07/product-image3-copyright-430x430.jpg 430w, wp-content/uploads/2022/07/product-image3-copyright-150x150.jpg 150w, wp-content/uploads/2022/07/product-image3-copyright-120x120.jpg 120w, wp-content/uploads/2022/07/product-image3-copyright-300x300.jpg 300w, wp-content/uploads/2022/07/product-image3-copyright-370x370.jpg 370w" sizes="(max-width: 600px) 100vw, 430px" />
-                                                                                                        </a>
-                                                                                                        <div class="mask">
-                                                                                                        </div>
-                                                                                                        <div class="icons">
-                                                                                                            <div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper" data-tinvwl_product_id="17924">
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div><a role="button" tabindex="0" aria-label="Add to Wishlist" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart  tinvwl-position-shortcode tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="17924" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[0]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"><span class="tinvwl_add_to_wishlist-text">Add
-                                                                                                                        to
-                                                                                                                        Wishlist</span></a>
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div>
-                                                                                                                <div class="tinvwl-tooltip">
-                                                                                                                    Add
-                                                                                                                    to
-                                                                                                                    Wishlist
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <a rel="nofollow" href="?add-to-cart=17924" aria-hidden="true" data-quantity="1" data-product_id="17924" data-product_sku="85368" class="shop_cart icon-shopping-cart button add_to_cart_button product_type_simple product_in_stock ajax_add_to_cart"><span class="icon-anim"></span></a>
-                                                                                                            <a href="product/fresh-basil.html" aria-hidden="true" class="shop_link">
-                                                                                                                <span class="icon-anim"></span>
-                                                                                                            </a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="post_data">
-                                                                                                        <div class="post_data_inner">
-                                                                                                            <div class="post_header entry-header">
-                                                                                                                <div class="post_tags product_tags">
-                                                                                                                    <a href="product-tag/crop.html" rel="tag">crop</a>,
-                                                                                                                    <a href="product-tag/farm.html" rel="tag">farm</a>,
-                                                                                                                    <a href="product-tag/food.html" rel="tag">food</a>,
-                                                                                                                    <a href="product-tag/healthy.html" rel="tag">healthy</a>
-                                                                                                                </div>
-                                                                                                                <h2 class="woocommerce-loop-product__title">
-                                                                                                                    <a href="product/fresh-basil.html">Fresh
-                                                                                                                        Basil</a>
-                                                                                                                </h2>
-                                                                                                                <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                                                                                                    <span style="width:100%">Rated
-                                                                                                                        <strong class="rating">5.00</strong>
-                                                                                                                        out
-                                                                                                                        of
-                                                                                                                        5</span>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>35.00</bdi></span></span>
-                                                                                                            <a href="?add-to-cart=17924" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="17924" data-product_sku="85368" aria-label="Add &ldquo;Fresh Basil&rdquo; to your cart" rel="nofollow">Buy
-                                                                                                                now</a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </li>
-                                                                                            <li class="product type-product post-17922 status-publish last instock product_cat-vegetables product_tag-crop product_tag-farm product_tag-food product_tag-healthy has-post-thumbnail shipping-taxable purchasable product-type-simple product_style_info_2">
-                                                                                                <div class="post_item post_layout_thumbs">
-                                                                                                    <div class="post_featured hover_shop">
-                                                                                                        <a href="product/midwest-tomatoes.html">
-                                                                                                            <img width="430" height="430" src="{{ asset('theme/wp-content/uploads/2022/07/product-image1-copyright-430x430.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" srcset="wp-content/uploads/2022/07/product-image1-copyright-430x430.jpg 430w, wp-content/uploads/2022/07/product-image1-copyright-150x150.jpg 150w, wp-content/uploads/2022/07/product-image1-copyright-120x120.jpg 120w, wp-content/uploads/2022/07/product-image1-copyright-300x300.jpg 300w, wp-content/uploads/2022/07/product-image1-copyright-370x370.jpg 370w" sizes="(max-width: 600px) 100vw, 430px" />
-                                                                                                        </a>
-                                                                                                        <div class="mask">
-                                                                                                        </div>
-                                                                                                        <div class="icons">
-                                                                                                            <div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper" data-tinvwl_product_id="17922">
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div><a role="button" tabindex="0" aria-label="Add to Wishlist" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart  tinvwl-position-shortcode tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="17922" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[0]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"><span class="tinvwl_add_to_wishlist-text">Add
-                                                                                                                        to
-                                                                                                                        Wishlist</span></a>
-                                                                                                                <div class="tinv-wishlist-clear">
-                                                                                                                </div>
-                                                                                                                <div class="tinvwl-tooltip">
-                                                                                                                    Add
-                                                                                                                    to
-                                                                                                                    Wishlist
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <a rel="nofollow" href="?add-to-cart=17922" aria-hidden="true" data-quantity="1" data-product_id="17922" data-product_sku="67459" class="shop_cart icon-shopping-cart button add_to_cart_button product_type_simple product_in_stock ajax_add_to_cart"><span class="icon-anim"></span></a>
-                                                                                                            <a href="product/midwest-tomatoes.html" aria-hidden="true" class="shop_link">
-                                                                                                                <span class="icon-anim"></span>
-                                                                                                            </a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="post_data">
-                                                                                                        <div class="post_data_inner">
-                                                                                                            <div class="post_header entry-header">
-                                                                                                                <div class="post_tags product_tags">
-                                                                                                                    <a href="product-tag/crop.html" rel="tag">crop</a>,
-                                                                                                                    <a href="product-tag/farm.html" rel="tag">farm</a>,
-                                                                                                                    <a href="product-tag/food.html" rel="tag">food</a>,
-                                                                                                                    <a href="product-tag/healthy.html" rel="tag">healthy</a>
-                                                                                                                </div>
-                                                                                                                <h2 class="woocommerce-loop-product__title">
-                                                                                                                    <a href="product/midwest-tomatoes.html">Midwest
-                                                                                                                        Tomatoes</a>
-                                                                                                                </h2>
-                                                                                                                <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
-                                                                                                                    <span style="width:100%">Rated
-                                                                                                                        <strong class="rating">5.00</strong>
-                                                                                                                        out
-                                                                                                                        of
-                                                                                                                        5</span>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>55.00</bdi></span></span>
-                                                                                                            <a href="?add-to-cart=17922" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="17922" data-product_sku="67459" aria-label="Add &ldquo;Midwest Tomatoes&rdquo; to your cart" rel="nofollow">Buy
-                                                                                                                now</a>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </li>
+                                                                                            
                                                                                         </ul>
                                                                                     </div>
                                                                                 </div>
@@ -2921,7 +2524,7 @@ Cultivating Agriculture that Works for the Future
                                                                     <div class="elementor-element elementor-element-12ccc613 no-title sc_fly_static elementor-widget elementor-widget-image" data-id="12ccc613" data-element_type="widget" data-widget_type="image.default">
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-image">
-                                                                                <img decoding="async" loading="lazy" width="945" height="855" src="images/custom-img-24-copyright.jpg" class="attachment-full size-full" alt="" srcset="images/custom-img-24-copyright.jpg 945w, wp-content/uploads/2022/08/custom-img-24-copyright-600x543.jpg 600w, wp-content/uploads/2022/08/custom-img-24-copyright-300x271.jpg 300w, wp-content/uploads/2022/08/custom-img-24-copyright-768x695.jpg 768w, wp-content/uploads/2022/08/custom-img-24-copyright-370x335.jpg 370w, wp-content/uploads/2022/08/custom-img-24-copyright-840x760.jpg 840w, wp-content/uploads/2022/08/custom-img-24-copyright-410x371.jpg 410w" sizes="(max-width: 945px) 100vw, 945px" />
+                                                                                <img decoding="async" loading="lazy" width="945" height="855" src="{{ asset('theme/images/custom-img-24-copyright.jpg') }}" class="attachment-full size-full" alt="" sizes="(max-width: 945px) 100vw, 945px" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -3063,7 +2666,7 @@ Cultivating Agriculture that Works for the Future
                                                                     <div class="elementor-element elementor-element-1e77691e no-title sc_fly_static elementor-widget elementor-widget-image" data-id="1e77691e" data-element_type="widget" data-widget_type="image.default">
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-image">
-                                                                                <img decoding="async" loading="lazy" width="945" height="945" src="images/custom-img-25-copyright.jpg" class="attachment-full size-full" alt="" srcset="images/custom-img-25-copyright.jpg 945w, wp-content/uploads/2022/08/custom-img-25-copyright-430x430.jpg 430w, wp-content/uploads/2022/08/custom-img-25-copyright-150x150.jpg 150w, wp-content/uploads/2022/08/custom-img-25-copyright-600x600.jpg 600w, wp-content/uploads/2022/08/custom-img-25-copyright-300x300.jpg 300w, wp-content/uploads/2022/08/custom-img-25-copyright-768x768.jpg 768w, wp-content/uploads/2022/08/custom-img-25-copyright-370x370.jpg 370w, wp-content/uploads/2022/08/custom-img-25-copyright-120x120.jpg 120w, wp-content/uploads/2022/08/custom-img-25-copyright-840x840.jpg 840w, wp-content/uploads/2022/08/custom-img-25-copyright-410x410.jpg 410w" sizes="(max-width: 945px) 100vw, 945px" />
+                                                                                <img decoding="async" loading="lazy" width="945" height="945" src="{{ asset('theme/images/custom-img-25-copyright.jpg') }}" class="attachment-full size-full" alt="" sizes="(max-width: 945px) 100vw, 945px" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -3071,7 +2674,7 @@ Cultivating Agriculture that Works for the Future
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-image">
                                                                                 <a href="marketplace.php">
-                                                                                    <img decoding="async" loading="lazy" width="278" height="277" src="images/organic-label-copyright.png" class="elementor-animation-grow-rotate attachment-full size-full" alt="" srcset="images/organic-label-copyright.png 278w, wp-content/uploads/2022/08/organic-label-copyright-150x150.png 150w, wp-content/uploads/2022/08/organic-label-copyright-120x120.png 120w" sizes="(max-width: 278px) 100vw, 278px" />
+                                                                                    <img decoding="async" loading="lazy" width="278" height="277" src="{{ asset('theme/images/organic-label-copyright.png') }}" class="elementor-animation-grow-rotate attachment-full size-full" alt="" sizes="(max-width: 278px) 100vw, 278px" />
                                                                                 </a>
                                                                             </div>
                                                                         </div>
@@ -3085,7 +2688,7 @@ Cultivating Agriculture that Works for the Future
                                                                     <div class="elementor-element elementor-element-28413095 no-title sc_fly_static elementor-widget elementor-widget-image" data-id="28413095" data-element_type="widget" data-widget_type="image.default">
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-image">
-                                                                                <img decoding="async" loading="lazy" width="945" height="945" src="images/custom-img-26-copyright.jpg" class="attachment-full size-full" alt="" srcset="images/custom-img-26-copyright.jpg 945w, wp-content/uploads/2022/08/custom-img-26-copyright-430x430.jpg 430w, wp-content/uploads/2022/08/custom-img-26-copyright-150x150.jpg 150w, wp-content/uploads/2022/08/custom-img-26-copyright-600x600.jpg 600w, wp-content/uploads/2022/08/custom-img-26-copyright-300x300.jpg 300w, wp-content/uploads/2022/08/custom-img-26-copyright-768x768.jpg 768w, wp-content/uploads/2022/08/custom-img-26-copyright-370x370.jpg 370w, wp-content/uploads/2022/08/custom-img-26-copyright-120x120.jpg 120w, wp-content/uploads/2022/08/custom-img-26-copyright-840x840.jpg 840w, wp-content/uploads/2022/08/custom-img-26-copyright-410x410.jpg 410w" sizes="(max-width: 945px) 100vw, 945px" />
+                                                                                <img decoding="async" loading="lazy" width="945" height="945" src="{{ asset('theme/images/custom-img-26-copyright.jpg') }}" class="attachment-full size-full" alt="" sizes="(max-width: 945px) 100vw, 945px" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -3201,7 +2804,7 @@ Cultivating Agriculture that Works for the Future
             @include('components.footer')
         </div>
     </div>
-    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script data-cfasync="false" src="{{ asset('theme/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js') }}"></script>
     <script>
         window.RS_MODULES = window.RS_MODULES || {};
         window.RS_MODULES.modules = window.RS_MODULES.modules || {};
@@ -3271,7 +2874,7 @@ Cultivating Agriculture that Works for the Future
         /* ]]> */
     </script>
     <script type='text/javascript' defer="defer" src='{{ asset("theme/css/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js")}}' id='wc-add-to-cart-js'></script>
-    <script type='text/javascript' src='css/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js' id='js-cookie-js'>
+    <script type='text/javascript' src='{{ asset("theme/css/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js") }}' id='js-cookie-js'>
     </script>
     <script type='text/javascript' id='woocommerce-js-extra'>
         /* <![CDATA[ */
@@ -3679,7 +3282,7 @@ Cultivating Agriculture that Works for the Future
     <script type='text/javascript' src='{{ asset("theme/css/plugins/elementor/assets/lib/waypoints/waypoints.min.js")}}' id='elementor-waypoints-js'></script>
     <script type='text/javascript' src='{{ asset("theme/js/ui-core.min.js")}}' id='jquery-ui-core-js'></script>
     <script type='text/javascript' src='{{ asset("theme/css/plugins/elementor/assets/lib/share-link/share-link.min.js")}}' id='share-link-js'></script>
-    <script type='text/javascript' src='c{{ asset("theme/css/plugins/elementor/assets/lib/dialog/dialog.min.js")}}' id='elementor-dialog-js'>
+    <script type='text/javascript' src='{{ asset("theme/css/plugins/elementor/assets/lib/dialog/dialog.min.js")}}' id='elementor-dialog-js'>
     </script>
     <script id="elementor-frontend-js-before" type="text/javascript">
         var elementorFrontendConfig = {
@@ -3885,6 +3488,19 @@ Cultivating Agriculture that Works for the Future
             window.RS_MODULES.checkMinimal();
         };
     </script>
+    <div class="cart-container">
+        <div class="cart">
+            <h1>Shopping Cart</h1>
+            {{--  <button class="clear-cart" onclick="clearCart()">Clear Cart</button>  --}}
+            <ul class="cart-items"></ul>
+        </div>
+        <p>Total: $<span class="cart-total">0.00</span></p>
+        <!-- Clear Cart Button -->
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ asset('functions/cart.js') }}"></script>
 </body>
 
 </html>
