@@ -1,0 +1,25 @@
+/* Style for the cart container */
+.cart-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the cart items and total */
+.cart {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

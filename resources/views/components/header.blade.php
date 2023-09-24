@@ -32,7 +32,8 @@
                                                     <div class="search_modern">
                                                         <span class="search_submit"></span>
                                                         <div class="search_wrap scheme_dark">
-                                                            <div class="search_header_wrap"><img class="logo_image" src="images/logo-inverse.png" srcset="images/logo-inverse.png 2x" alt="Ecoagro" width="173" height="53">
+                                                            <div class="search_header_wrap">
+                                                            <img class="logo_image" src="{{ asset('theme/images/logo-inverse.png') }}" srcset="{{ asset('theme/images/logo-inverse.png') }} 2x" alt="Ecoagro" width="173" height="53">
                                                                 <a class="search_close" href="#"></a>
                                                             </div>
                                                             <div class="search_form_wrap">
@@ -142,7 +143,8 @@
                                     <div class="elementor-widget-wrap">
                                         <div class="sc_layouts_item elementor-element elementor-element-703d5de sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_logo" data-id="703d5de" data-element_type="widget" data-widget_type="trx_sc_layouts_logo.default">
                                             <div class="elementor-widget-container">
-                                                <a href="index.php" class="sc_layouts_logo sc_layouts_logo_default trx_addons_inline_1726964019"><img class="logo_image" src="images/logo.png" srcset="images/logo.png 2x" alt="Ecoagro" width="173" height="53"></a>
+                                                <a href="index.php" class="sc_layouts_logo sc_layouts_logo_default trx_addons_inline_1726964019">
+                                                <img class="logo_image" src="{{ asset('theme/images/logo.png') }}" srcset="{{ asset('theme/images/logo.png') }} 2x" alt="Ecoagro" width="173" height="53"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -158,7 +160,8 @@
                                                     <div class="search_modern">
                                                         <span class="search_submit"></span>
                                                         <div class="search_wrap scheme_dark">
-                                                            <div class="search_header_wrap"><img class="logo_image" src="images/logo-inverse.png" srcset="images/logo-inverse.png 2x" alt="Ecoagro" width="173" height="53">
+                                                            <div class="search_header_wrap">
+                                                                <img class="logo_image" src="{{ asset('theme/images/logo-inverse.png') }}" srcset="{{ asset('theme/images/logo-inverse.png') }} 2x" alt="Ecoagro" width="173" height="53">
                                                                 <a class="search_close" href="agro-services.html"></a>
                                                             </div>
                                                             <div class="search_form_wrap">
@@ -232,7 +235,7 @@
     <div class="menu_mobile_inner with_widgets">
         <div class="menu_mobile_header_wrap">
             <a class="sc_layouts_logo" href="index.php">
-                <img src="images/logo-inverse.png" srcset="images/logo-inverse.png 2x" alt="Ecoagro" width="173" height="53"> </a>
+                <img src="{{ asset('theme/images/logo-inverse.png') }}" srcset="{{ asset('theme/images/logo-inverse.png') }} 2x" alt="Ecoagro" width="173" height="53"> </a>
 
             <a class="menu_mobile_close menu_button_close" tabindex="0" href="agro-services.html"><span class="menu_button_close_text">Close</span><span class="menu_button_close_icon"></span></a>
         </div>

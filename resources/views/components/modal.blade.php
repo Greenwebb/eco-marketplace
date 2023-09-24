@@ -16,9 +16,9 @@
                                             value="Branding" checked>
                                         <label for="branding" class="purpose-radio-label">
                                             <span class="label-icon">
-                                                <img src="images/1.svg" alt="branding"
+                                                <img src="public/theme/images/1.svg" alt="branding"
                                                     class="label-icon-default">
-                                                <img src="images/1.svg" alt="branding"
+                                                <img src="{{ asset('theme/images/1.svg') }}" alt="branding"
                                                     class="label-icon-active">
                                             </span>
                                             <span class="label-text">Farmer</span>
@@ -29,9 +29,9 @@
                                             class="purpose-radio-input" value="Moile Design">
                                         <label for="mobile-design" class="purpose-radio-label">
                                             <span class="label-icon">
-                                                <img src="images/2.svg" alt="branding"
+                                                <img src="{{ asset('theme/images/2.svg') }}" alt="branding"
                                                     class="label-icon-default">
-                                                <img src="images/2.svg" alt="branding"
+                                                <img src="{{ asset('theme/images/2.svg') }}" alt="branding"
                                                     class="label-icon-active">
                                             </span>
                                             <span class="label-text">agronomists</span>
@@ -42,9 +42,9 @@
                                             value="Web Design">
                                         <label for="web-design" class="purpose-radio-label">
                                             <span class="label-icon">
-                                                <img src="images/3.svg" alt="branding"
+                                                <img src="{{ asset('theme/images/3.svg') }}" alt="branding"
                                                     class="label-icon-default">
-                                                <img src="images/3.svg" alt="branding"
+                                                <img src="{{ asset('theme/images/3.svg') }}" alt="branding"
                                                     class="label-icon-active">
                                             </span>
                                             <span class="label-text">Guest</span>

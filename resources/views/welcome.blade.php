@@ -12,6 +12,7 @@
     <meta name='robots' content='max-image-preview:large' />
     <link rel='dns-prefetch' href='//use.typekit.net' />
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
     </script>
@@ -19,10 +20,7 @@
     <meta property="og:url" content="https://agricola.axiomthemes.com/organic-farm/" />
     <meta property="og:title" content="Organic Farm" />
     <meta property="og:description" content="			
-Cultivating Agriculture that Works for the Future 
-										We’re a Unique and Traditional
-Organic Farm 
-										Go to the Shop 
+Cultivating Agriculture that Works for the Future We’re a Unique and Traditional Organic Farm Go to the Shop 
 Cultivating Agriculture that Works for the Future 
 										Get the Fresh Product 
 										Go to the Shop 
@@ -36,7 +34,7 @@ Cultivating Agriculture that Works for the Future
             "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
             "svgExt": ".svg",
             "source": {
-                "concatemoji": "js/wp-emoji-release.min.js"
+                "concatemoji": "{{ asset('theme/js/wp-emoji-release.min.js') }}"
             }
         };
         /*! This file is auto-generated */
@@ -2193,7 +2191,7 @@ Cultivating Agriculture that Works for the Future
                                                                     <div class="elementor-element elementor-element-12ccc613 no-title sc_fly_static elementor-widget elementor-widget-image" data-id="12ccc613" data-element_type="widget" data-widget_type="image.default">
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-image">
-                                                                                <img decoding="async" loading="lazy" width="945" height="855" src="images/custom-img-24-copyright.jpg" class="attachment-full size-full" alt="" srcset="images/custom-img-24-copyright.jpg 945w, wp-content/uploads/2022/08/custom-img-24-copyright-600x543.jpg 600w, wp-content/uploads/2022/08/custom-img-24-copyright-300x271.jpg 300w, wp-content/uploads/2022/08/custom-img-24-copyright-768x695.jpg 768w, wp-content/uploads/2022/08/custom-img-24-copyright-370x335.jpg 370w, wp-content/uploads/2022/08/custom-img-24-copyright-840x760.jpg 840w, wp-content/uploads/2022/08/custom-img-24-copyright-410x371.jpg 410w" sizes="(max-width: 945px) 100vw, 945px" />
+                                                                                <img decoding="async" loading="lazy" width="945" height="855" src="{{ asset('theme/images/custom-img-24-copyright.jpg') }}" class="attachment-full size-full" alt="" sizes="(max-width: 945px) 100vw, 945px" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -2335,7 +2333,7 @@ Cultivating Agriculture that Works for the Future
                                                                     <div class="elementor-element elementor-element-1e77691e no-title sc_fly_static elementor-widget elementor-widget-image" data-id="1e77691e" data-element_type="widget" data-widget_type="image.default">
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-image">
-                                                                                <img decoding="async" loading="lazy" width="945" height="945" src="images/custom-img-25-copyright.jpg" class="attachment-full size-full" alt="" srcset="images/custom-img-25-copyright.jpg 945w, wp-content/uploads/2022/08/custom-img-25-copyright-430x430.jpg 430w, wp-content/uploads/2022/08/custom-img-25-copyright-150x150.jpg 150w, wp-content/uploads/2022/08/custom-img-25-copyright-600x600.jpg 600w, wp-content/uploads/2022/08/custom-img-25-copyright-300x300.jpg 300w, wp-content/uploads/2022/08/custom-img-25-copyright-768x768.jpg 768w, wp-content/uploads/2022/08/custom-img-25-copyright-370x370.jpg 370w, wp-content/uploads/2022/08/custom-img-25-copyright-120x120.jpg 120w, wp-content/uploads/2022/08/custom-img-25-copyright-840x840.jpg 840w, wp-content/uploads/2022/08/custom-img-25-copyright-410x410.jpg 410w" sizes="(max-width: 945px) 100vw, 945px" />
+                                                                                <img decoding="async" loading="lazy" width="945" height="945" src="{{ asset('theme/images/custom-img-25-copyright.jpg') }}" class="attachment-full size-full" alt="" sizes="(max-width: 945px) 100vw, 945px" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -2343,7 +2341,7 @@ Cultivating Agriculture that Works for the Future
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-image">
                                                                                 <a href="marketplace.php">
-                                                                                    <img decoding="async" loading="lazy" width="278" height="277" src="images/organic-label-copyright.png" class="elementor-animation-grow-rotate attachment-full size-full" alt="" srcset="images/organic-label-copyright.png 278w, wp-content/uploads/2022/08/organic-label-copyright-150x150.png 150w, wp-content/uploads/2022/08/organic-label-copyright-120x120.png 120w" sizes="(max-width: 278px) 100vw, 278px" />
+                                                                                    <img decoding="async" loading="lazy" width="278" height="277" src="{{ asset('theme/images/organic-label-copyright.png') }}" class="elementor-animation-grow-rotate attachment-full size-full" alt="" sizes="(max-width: 278px) 100vw, 278px" />
                                                                                 </a>
                                                                             </div>
                                                                         </div>
@@ -2357,7 +2355,7 @@ Cultivating Agriculture that Works for the Future
                                                                     <div class="elementor-element elementor-element-28413095 no-title sc_fly_static elementor-widget elementor-widget-image" data-id="28413095" data-element_type="widget" data-widget_type="image.default">
                                                                         <div class="elementor-widget-container">
                                                                             <div class="elementor-image">
-                                                                                <img decoding="async" loading="lazy" width="945" height="945" src="images/custom-img-26-copyright.jpg" class="attachment-full size-full" alt="" srcset="images/custom-img-26-copyright.jpg 945w, wp-content/uploads/2022/08/custom-img-26-copyright-430x430.jpg 430w, wp-content/uploads/2022/08/custom-img-26-copyright-150x150.jpg 150w, wp-content/uploads/2022/08/custom-img-26-copyright-600x600.jpg 600w, wp-content/uploads/2022/08/custom-img-26-copyright-300x300.jpg 300w, wp-content/uploads/2022/08/custom-img-26-copyright-768x768.jpg 768w, wp-content/uploads/2022/08/custom-img-26-copyright-370x370.jpg 370w, wp-content/uploads/2022/08/custom-img-26-copyright-120x120.jpg 120w, wp-content/uploads/2022/08/custom-img-26-copyright-840x840.jpg 840w, wp-content/uploads/2022/08/custom-img-26-copyright-410x410.jpg 410w" sizes="(max-width: 945px) 100vw, 945px" />
+                                                                                <img decoding="async" loading="lazy" width="945" height="945" src="{{ asset('theme/images/custom-img-26-copyright.jpg') }}" class="attachment-full size-full" alt="" sizes="(max-width: 945px) 100vw, 945px" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -2478,6 +2476,7 @@ Cultivating Agriculture that Works for the Future
 
 
     <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script data-cfasync="false" src="{{ asset('theme/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js') }}"></script>
     <script>
         window.RS_MODULES = window.RS_MODULES || {};
         window.RS_MODULES.modules = window.RS_MODULES.modules || {};
@@ -2547,7 +2546,7 @@ Cultivating Agriculture that Works for the Future
         /* ]]> */
     </script>
     <script type='text/javascript' defer="defer" src='{{ asset("theme/css/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js")}}' id='wc-add-to-cart-js'></script>
-    <script type='text/javascript' src='css/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js' id='js-cookie-js'>
+    <script type='text/javascript' src='{{ asset("theme/css/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js") }}' id='js-cookie-js'>
     </script>
     <script type='text/javascript' id='woocommerce-js-extra'>
         /* <![CDATA[ */
@@ -2955,7 +2954,7 @@ Cultivating Agriculture that Works for the Future
     <script type='text/javascript' src='{{ asset("theme/css/plugins/elementor/assets/lib/waypoints/waypoints.min.js")}}' id='elementor-waypoints-js'></script>
     <script type='text/javascript' src='{{ asset("theme/js/ui-core.min.js")}}' id='jquery-ui-core-js'></script>
     <script type='text/javascript' src='{{ asset("theme/css/plugins/elementor/assets/lib/share-link/share-link.min.js")}}' id='share-link-js'></script>
-    <script type='text/javascript' src='c{{ asset("theme/css/plugins/elementor/assets/lib/dialog/dialog.min.js")}}' id='elementor-dialog-js'>
+    <script type='text/javascript' src='{{ asset("theme/css/plugins/elementor/assets/lib/dialog/dialog.min.js")}}' id='elementor-dialog-js'>
     </script>
     <script id="elementor-frontend-js-before" type="text/javascript">
         var elementorFrontendConfig = {
@@ -3179,5 +3178,19 @@ Cultivating Agriculture that Works for the Future
     <script src="{{ asset('scripts/checkout.js') }}"></script>
     <script src="{{ asset('scripts/realtime-cart.js') }}"></script>
     
+
+    {{-- // <div class="cart-container">
+    //     <div class="cart">
+    //         <h1>Shopping Cart</h1>
+    //          <button class="clear-cart" onclick="clearCart()">Clear Cart</button> 
+    //         <ul class="cart-items"></ul>
+    //     </div>
+    //     <p>Total: $<span class="cart-total">0.00</span></p>
+    //     <!-- Clear Cart Button -->
+    // </div>
+
+
+    // <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    // <script src="{{ asset('functions/cart.js') }}"></script> --}}
 </body>
 </html> 
