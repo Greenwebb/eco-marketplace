@@ -10,7 +10,7 @@
                                     <div class="elementor-widget-wrap">
                                         <div class="sc_layouts_item elementor-element elementor-element-f112344 sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_logo" data-id="f112344" data-element_type="widget" data-widget_type="trx_sc_layouts_logo.default">
                                             <div class="elementor-widget-container">
-                                                <a href="index.php" class="sc_layouts_logo sc_layouts_logo_default trx_addons_inline_1675068927"><img class="logo_image" src="images/logo.png" srcset="images/logo.png 2x" alt="Ecoagro" width="173" height="53"></a>
+                                                <a href="{{ route('welcome') }}" class="sc_layouts_logo sc_layouts_logo_default trx_addons_inline_1675068927"><img class="logo_image" src="{{ asset('img/logo.png')}}" alt="Ecoagro" width="173" height="53"></a>
                                             </div>
                                         </div>
                                         <div class="sc_layouts_item elementor-element elementor-element-29ff9f0 sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_menu" data-id="29ff9f0" data-element_type="widget" data-widget_type="trx_sc_layouts_menu.default">
@@ -18,38 +18,10 @@
                                                 <nav class="sc_layouts_menu sc_layouts_menu_default sc_layouts_menu_dir_horizontal menu_hover_zoom_line" data-animation-in="fadeInUpSmall" data-animation-out="fadeOutDownSmall">
                                                     <ul id="menu_main" class="sc_layouts_menu_nav menu_main_nav">
                                                         <li id="menu-item-18273" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-18273">
-                                                            <a href="index.php"><span>Home</span></a>
+                                                            <a href="{{ route('welcome') }}"><span>Marketplace</span></a>
 
                                                         </li>
-                                                        <li id="menu-item-17651" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-17651">
-                                                            <a href="services.php"><span>Our Services</span></a>
-                                                            <ul class="sub-menu">
-                                                                <li id="menu-item-18280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18280">
-                                                                    <a href="#"><span>The Call Center</span></a>
-                                                                </li>
-                                                                <li id="menu-item-18286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18286">
-                                                                    <a href="#"><span>Online Advisory Services</span></a>
-                                                                </li>
-                                                                <li id="menu-item-18288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18288">
-                                                                    <a href="marketplace.php"><span>The Marketplace</span></a>
-                                                                </li>
-                                                                <li id="menu-item-18287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18287">
-                                                                    <a href="#"><span>Ecopay Payment Gateway</span></a>
-                                                                </li>
-
-                                                            </ul>
-                                                        </li>
-                                                        <li id="menu-item-18295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18295">
-                                                            <a href="about.php"><span>About Us</span></a>
-
-                                                        </li>
-                                                        <li id="menu-item-18300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18300">
-                                                            <a href="marketplace.php"><span>Marketplace</span></a>
-
-                                                        </li>
-                                                        <li id="menu-item-17194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17194">
-                                                            <a href="contact.php"><span>Contact</span></a>
-                                                        </li>
+                                                        
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -103,23 +75,62 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3e4e340 sc_layouts_column_align_right sc_layouts_column sc_inner_width_none sc_content_align_inherit sc_layouts_column_icons_position_left sc_fly_static" data-id="3e4e340" data-element_type="column">
                                 <div class="elementor-column-wrap elementor-element-populated">
                                     <div class="elementor-widget-wrap">
-                                        <div class="sc_layouts_item elementor-element elementor-element-066af30 sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_iconed_text" data-id="066af30" data-element_type="widget" data-widget_type="trx_sc_layouts_iconed_text.default">
+                                        
+                                         {{-- <div class="sc_layouts_item elementor-element elementor-element-066af30 sc_fly_static elementor-widget elementor-widget-trx_sc_layouts_iconed_text" data-id="066af30" data-element_type="widget" data-widget_type="trx_sc_layouts_iconed_text.default">
                                             <div class="elementor-widget-container">
-                                                <div class="sc_layouts_iconed_text"><a href="tel:18004585697" class="sc_layouts_item_link sc_layouts_iconed_text_link"><span class="sc_layouts_item_details sc_layouts_iconed_text_details"><span class="sc_layouts_item_details_line1 sc_layouts_iconed_text_line1">
-                                                                +26 097 458 56 97</span></span></a></div>
+                                                <div class="sc_layouts_iconed_text">
+                                                    <a href="tel:18004585697" class="sc_layouts_item_link sc_layouts_iconed_text_link">
+                                                        <span class="sc_layouts_item_details sc_layouts_iconed_text_details">
+                                                            <span class="sc_layouts_item_details_line1 sc_layouts_iconed_text_line1">+26 097 458 56 97</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </div>  --}}
+                                        
                                         <div class="sc_layouts_item elementor-element elementor-element-d662b41 sc_fly_static elementor-widget elementor-widget-trx_sc_button" data-id="d662b41" data-element_type="widget" data-widget_type="trx_sc_button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="sc_item_button sc_button_wrap"><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="sc_button sc_button_default sc_button_size_small sc_button_icon_left color_style_link2"><span class="sc_button_text"><span class="sc_button_title">Get Started</span></span></a></div>
+                                                
+                                                <div class="sc_item_button sc_button_wrap">
+                                                    @auth
+                                                    <a href="{{ route('home') }}" id="openSideMenu" class="sc_button sc_button_default sc_button_size_small sc_button_icon_left color_style_link2">
+                                                        <span class="sc_button_text">
+                                                            <span class="sc_button_title">
+                                                                {{ auth()->user()->name }}
+                                                            </span> 
+                                                            {{-- <span class="sc_button_title">
+                                                                <script>
+                                                                    const userData = JSON.parse(sessionStorage.getItem('user'));
+                                                                    if (userData && userData.name) {
+                                                                        document.write(userData.name);
+                                                                    } else {
+                                                                        document.write("Get Started");
+                                                                    }
+                                                                </script>
+                                                            </span> --}}
+                                                        </span>
+                                                    </a>
+                                                    @else
+                                                    <a href="http://localhost:8000/login?source=marketplace&destination=marketplace"  class="sc_button sc_button_default sc_button_size_small sc_button_icon_left color_style_link2">
+                                                        <span class="sc_button_text">
+                                                            <span class="sc_button_title">
+                                                                Login
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                    @endauth
+                                                </div>
                                             </div>
-                                        </div>
+                                        </div> 
+                                        
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </section>

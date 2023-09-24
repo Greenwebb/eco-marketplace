@@ -320,4 +320,5 @@
             </footer><!-- /.footer_wrap -->
 
             
-@include('components.modal')
+ @include('components.modal') 
+ @include('components.side-cart-bar') 
