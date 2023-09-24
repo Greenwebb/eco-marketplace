@@ -38,7 +38,8 @@
                                                                                     <div class="post_featured hover_shop">
                                                                                         <a href="#">
                                                                                             {{-- <a href="{{ route('product.show', $product->id) }}"> --}}
-                                                                                                <img width="430" height="430" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs2MVk2JPf5fpD9neeuMeSM7HJlFO76UFbLlaT-fjSi-zH5_2r6ZKXzoOa91EQmsbN4E4&usqp=CAU" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="{{ $product->name }}" decoding="async" fetchpriority="high" />
+                                                                                               
+                                                                                                <img width="430" height="430" src="{{asset("storage/" . $product->image)}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="{{ $product->name }}" decoding="async" fetchpriority="high" />
                                                                                             </a>
                                                                                         <div class="mask">
                                                                                         </div>
